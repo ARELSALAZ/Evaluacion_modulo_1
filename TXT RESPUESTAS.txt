@@ -10,15 +10,18 @@ Las bases de datos relacionales necesitan una estructura fija, por ejemplo colum
 estructuras mas sensibles 
 
 3. Escribe el nombre de dos gestores de bases de datos y un caso de uso de cada uno. (2 pts)
+
 MySQL: Usado para cuando los datos tienen estructura como nombre, edad, id.
 MongoDB: Usado en aplicaciones móviles.
 
 4. ¿Qué representa un modelo entidad-relación y qué elementos lo componen? (2 pts)
+
 Un modelo entidad relación representa el esquema de cómo se están conectando y relacionando los datos, los 
 elementos son: entidades, atributos y relaciones 
 
 
 5. ¿Qué es la cardinalidad en un diagrama ER? Da un ejemplo. (2 pts)
+
 La cardinalidad indica cuántas veces se relacionan dos entidades, por ejemplo: un cliente puede hacer muchos
 pedidos ( 1 a muchos)
 
@@ -29,16 +32,20 @@ La normalización sirve para estandarizar los datos y evitar repeticiones, el ob
 y evitar errores.
 
 7. ¿Cuál es la diferencia entre una clave primaria y una clave foránea? (2 pts)
+
 La llave primaria es única mientras que la llave foránea sirve para conectar una tabla con otra
 
 
 8. Menciona dos funciones de texto en SQL y da un ejemplo de uso. (2 pts)
+
 UPPER(): Convierte texto a mayúsculas
 LOWER(): Convierte texto a minúsculas
 
 
 9. ¿Qué hace la función AVG() en SQL? ¿Con qué tipo de datos se usa? (2 pts)
+
 La función AVG() Realiza el promedio (AVG=AVERAGE=PROMEDIO) y funciona con tipo de datos numéricos.
 
 10. ¿Para qué sirve IS NULL en una consulta SQL? (2 pts)
+
 Sirve para buscar valores vacíos o que no tienen dato.
